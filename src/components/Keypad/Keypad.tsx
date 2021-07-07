@@ -23,7 +23,7 @@ const Keypad: React.FC = () => {
 
         <ButtonCalc value="." />
         <ButtonCalc value="0" />
-        <ButtonCalc value="/" />
+        <ButtonCalc value="%" />
         <ButtonCalc value="x" />
 
         <ButtonCalc background="primary" shadow="#3C8DAD" span={6} value="RESET" />
