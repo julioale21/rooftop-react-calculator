@@ -63,9 +63,7 @@ const ButtonCalc: React.FC<Props> = ({
         variant={background}
         onClick={handleClick}
       >
-        <p className="font-weight-bold m-0" style={{ fontSize: "2rem" }}>
-          {value}
-        </p>
+        <p className="btn-text font-weight-bold m-0">{value}</p>
       </Button>
     </Col>
   );

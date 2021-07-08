@@ -1,3 +1,9 @@
 .button:active {
   transform: translateY(4px);
 }
+
+@media (min-width: 768px) {
+  .btn-text {
+    font-size: 2rem;
+  }
+}
