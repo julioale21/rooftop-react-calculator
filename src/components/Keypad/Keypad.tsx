@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import ButtonCalc from "../Button";
+import ButtonCalc from "../ButtonCalc";
 
 const Keypad: React.FC = () => {
   return (
