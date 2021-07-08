@@ -8,8 +8,8 @@ interface Props {
 
 const DisplayScreen: React.FC<Props> = ({ value }) => {
   return (
-    <Container className="display bg-dark px-3 py-2 mb-2 shadow-lg">
-      <p className="display-text display-4 text-white font-weight-bold text-right">{value}</p>
+    <Container className="display bg-dark px-3 py-2 mb-md-2 shadow-lg">
+      <p className="display-text text-white font-weight-bold text-right">{value}</p>
     </Container>
   );
 };

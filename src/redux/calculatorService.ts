@@ -61,7 +61,7 @@ export class calculatorService {
         result = Number(input2);
     }
 
-    return String(result).slice(0, 10);
+    return String(result).slice(0, 13);
   }
 
   static showResult(state: IState, result: string, arithmetic: string) {
