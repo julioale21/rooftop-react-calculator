@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+[![Netlify Status](https://api.netlify.com/api/v1/badges/166a663b-a60c-4834-95c4-d53be43b86ec/deploy-status)](https://app.netlify.com/sites/rooftop-react-calculator/deploys)
+![GitHub language count](https://img.shields.io/github/languages/count/julioale21/rooftop-react-calculator?color=success)
+![GitHub top language](https://img.shields.io/github/languages/top/julioale21/rooftop-react-calculator?color=success)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+   <h1 align="center">React Calculator - Rooftop Academy</h1>
+   
 
-In the project directory, you can run:
+  
+## The objetive
 
-### `yarn start`
+Your objetive is to build a calculator app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Bonus:** Use react redux
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Desktop Design
 
-### `yarn test`
+<div>
+  <img src="./docs/desktop-design.jpg">
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Mobile Design
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+  <img src="./docs/mobile-design.jpg">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Demo
+[https://rooftop-react-calculator.netlify.app/](https://rooftop-react-calculator.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project
+### Tools
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React.js
+- Create-react-app
+- React-Bootstrap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Project Structure
+The files are structured as follow:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    .
+    ├── docs
+    ├── public               # Static Files
+    ├── src
+        ├── components  
+        ├── interfaces
+        ├── redux 
+        App.css
+        App.tsx
+        index.tsx
 
-## Learn More
+    └── README.md            # The first page that the user will view when will visit the repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Requirements
+* npm or yarn
+* Git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Local deployment
+
+* Clone repository.
+* Execute the command `npm install`
+* Execute the command `npm run start`
