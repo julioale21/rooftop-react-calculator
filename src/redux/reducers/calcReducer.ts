@@ -14,7 +14,6 @@ export interface IState {
   display: string;
   isNewInput: boolean;
   result: string;
-  operator: string;
   arithmetic: string;
 }
 
@@ -22,7 +21,6 @@ const INITIAL_STATE: IState = {
   display: "0",
   isNewInput: true,
   result: "0",
-  operator: "operator",
   arithmetic: "",
 };
 
