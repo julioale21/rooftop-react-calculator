@@ -11,7 +11,7 @@ const DisplayScreen: React.FC<Props> = ({ value }) => {
       className="bg-dark px-3 py-2 mb-2 shadow-lg overflow-hidden"
       style={{ minHeight: "100px" }}
     >
-      <p className="display-4 text-white font-weight-bold text-right">{value}</p>
+      <p className="display-4 text-white font-weight-bold text-right overflow-hidden">{value}</p>
     </Container>
   );
 };
