@@ -19,7 +19,7 @@ export class calculatorService {
       };
     }
 
-    if (input.length > 24) {
+    if (state.display.length > 10) {
       return { ...state };
     }
 
@@ -61,7 +61,7 @@ export class calculatorService {
         result = Number(input2);
     }
 
-    return String(result);
+    return String(result).slice(0, 10);
   }
 
   static showResult(state: IState, result: string, arithmetic: string) {
