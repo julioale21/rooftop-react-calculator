@@ -37,6 +37,7 @@ Your objetive is to build a calculator app.
 - React.js
 - Create-react-app
 - React-Bootstrap
+- React Redux
 
 ### Project Structure
 The files are structured as follow:
