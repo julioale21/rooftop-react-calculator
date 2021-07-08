@@ -9,7 +9,7 @@
   
 ## The objetive
 
-Your objetive is to build a calculator app.
+Your objetive is to build a calculator app using the knowledge acquired during onboarding.
 
 **Bonus:** Use react redux
 
