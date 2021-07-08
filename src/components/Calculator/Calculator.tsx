@@ -3,7 +3,7 @@ import DisplayScreen from "../DisplayScreen";
 import { Col } from "react-bootstrap";
 import Keypad from "../Keypad";
 import { useSelector } from "react-redux";
-import { IState } from "../../redux/reducers/calcReducer";
+import IState from "../../interfaces/IState";
 
 const Calculator: React.FC = () => {
   const display = useSelector((state: IState) => state.display);
