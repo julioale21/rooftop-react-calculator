@@ -46,10 +46,10 @@ export class calculatorService {
 
     switch (arithmeticType) {
       case ADD:
-        result = Number(input1) + Number(input2);
+        result = Number((Number(input1) + Number(input2)).toFixed(9));
         break;
       case SUBTRACT:
-        result = Number(input1) - Number(input2);
+        result = Number((Number(input1) - Number(input2)).toFixed(9));
         break;
       case MULTIPLY:
         result = Number(input1) * Number(input2);
